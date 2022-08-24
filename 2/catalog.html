@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <base href="https://htmlacademy-adaptive.github.io/1800797-sedona-26/2/">
+</head>
+  <body class="page__body">
+    <header class="catalog-header">
+      <a class="catalog-header__logo">
+        <img class="catalog-header__logo-image" src="source/img/logo.png" width="185" height="96" alt="City of Sedona">
+      </a>
+      <nav class="catalog-nav">
+        <button class="catalog-nav__toggle" type="button">
+          <span class="visyally hidden">Открыть меню</span>
+        </button>
+        <div class="catalog-nav__wrapper">
+        <ul class="catalog-nav__list">
+          <li class="nav-list__item nav-list__item--active">
+            <a>
+              Главная
+            </a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#">
+              Фото и видео
+            </a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#">
+              Форма отзыва
+            </a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#">
+              Html academy
+            </a>
+          </li>
+        </ul>
+      </div>
+      </nav>
+      <div class="catalog__intro-sedona">
+        <svg width="229" height="39" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27.187 13.372c-2.209-1.834-4.97-3.057-7.917-3.057-2.209 0-5.093 1.284-5.093 3.852 0 2.69 3.252 3.73 5.278 4.342l3.068.917c6.383 1.896 11.354 5.075 11.354 12.475 0 4.524-1.105 9.233-4.726 12.29-3.62 3.058-8.408 4.28-13.01 4.28-5.77 0-11.477-1.956-16.141-5.197l4.971-9.478c3.007 2.63 6.505 4.709 10.617 4.709 2.823 0 5.77-1.407 5.77-4.587 0-3.363-4.665-4.463-7.243-5.197-7.487-2.202-12.397-4.097-12.397-12.964C1.718 6.462 8.346.41 17.552.41c4.603 0 10.31 1.467 14.361 3.79l-4.726 9.173ZM56.216 11.66v7.644h13.44v10.09h-13.44v7.888h14.238v10.09H44.31V1.631h26.144v10.09l-14.238-.062ZM79.291 1.632H96.23c12.765 0 23.321 10.028 23.321 22.87 0 12.84-10.617 22.87-23.321 22.87H79.29V1.631Zm11.968 35.65h2.7c7.119 0 13.195-3.914 13.195-12.78 0-8.194-5.401-12.78-13.072-12.78h-2.823v25.56ZM175.951 23.645c0 14.798-10.679 25.255-25.408 25.255-14.729 0-25.407-10.457-25.407-25.255 0-13.82 12.212-23.542 25.407-23.542s25.408 9.723 25.408 23.542Zm-38.418.061c0 7.889 5.83 13.637 12.949 13.637s12.949-5.748 12.949-13.637c0-6.298-5.83-12.107-12.949-12.107-7.058 0-12.949 5.809-12.949 12.107ZM182.272 1.632h11.967l21.848 28.006h.123V1.632h11.968v45.74H216.21l-21.848-28.068h-.123V47.37h-11.967V1.631ZM249.842 39.422l-3.192 7.95h-12.642l17.675-45.74h13.01L282 47.372h-12.704l-3.007-7.95h-16.447Zm8.346-23.665h-.123l-4.909 14.554h9.942l-4.91-14.554Z" fill="#fff"/></svg>
+      </div>
+    </header>
+
+    <main class="catalog-container">
+      <h1 class="visually-hidden">Фото каталога</h1>
+      <section class="photo">
+        <div class="photo__wrapper">
+          <div class="photo__preview">
+            <h2 class="photo__title">
+            Фото и видео
+            </h2>
+            <p class="photo__description">
+            Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.
+            </p>
+          </div>
+          <ul class="photo__list">
+            <li class="photo__Item">
+              <div class="photo_img">
+                <a href class="photo__link" href="#">
+                  <img class="photo__image" src="/source/img/catalog/photo-1-mobile.jpg" width="280px" height="280px" alt="Фото дороги в пустыне">
+                </a>
+              </div>
+              <h3 class="photo__name">неродные просторы</h3>
+              <p class="photo__author">Автор фото: Борис</p>
+              <b class="photo__number photo__number--like">1350</b>
+            </li>
+            <li class="photo__Item">
+              <div class="photo_img">
+                <a href class="photo__link" href="#">
+                  <img class="photo__image" src="/source/img/catalog/photo-2-mobile.jpg" width="280px" height="280px" alt="Фото цветка в пустыне">
+                </a>
+              </div>
+              <h3 class="photo__name">Местная растительность</h3>
+              <p class="photo__author">Автор фото: Сергей</p>
+              <b class="photo__number photo__number--like">143</b>
+            </li>
+            <li class="photo__Item">
+              <div class="photo_img">
+                <a href class="photo__link" href="#">
+                  <img class="photo__image" src="/source/img/catalog/photo-3-mobile.jpg" width="280px" height="280px" alt="Фото дороги в лесной местности">
+                </a>
+              </div>
+              <h3 class="photo__name">Дорога на север</h3>
+              <p class="photo__author">Автор фото: Пётр</p>
+              <b class="photo__number photo__number--like">96</b>
+            </li>
+            <li class="photo__Item">
+              <div class="photo_img">
+                <a href class="photo__link" href="#">
+                  <img class="photo__image" src="/source/img/catalog/photo-4-mobile.jpg" width="280px" height="280px" alt="Фото скал">
+                </a>
+              </div>
+              <h3 class="photo__name">Мост дьявола</h3>
+              <p class="photo__author">Автор фото: Антон</p>
+              <b class="photo__number photo__number--like">254</b>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="video">
+        <div class="video__wrapper">
+          <div class="video__preview">
+            <h2 class="video__title">
+              Все еще сомневаетесь?
+            </h2>
+            <p class="video__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+          </div>
+          <div class="video__img">
+            <video widht="280px" height="177px" controls="controls" src="#" poster="/source/img/catalog/videopic.jpg"></video>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="main-footer">
+      <div class="main-footer__wrapper">
+        <div class="main-footer__hashtag hashtag">
+          <b class="hashtag__name">
+            #visitSEDONA
+          </b>
+        </div>
+        <div class="main-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">Вконтакте</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
+                <span class="visually-hidden">Мы в Телеграме</span>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+                <span class="visually-hidden">Мы в Ютубе</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-footer__copyright copyright">
+          <p class="copyright__text">Разработано</p>
+          <a class="copyright__link copyright--link" href="https://htmlacademy.ru/intensive/adaptive">
+            <span class="visually-hidden">HTML Academy</span>
+          </a>
+        </div>
+      </div>
+
+    </footer>
+
+  </body>
+</html>
