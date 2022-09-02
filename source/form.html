@@ -57,17 +57,17 @@
               Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях
             </p>
           </div>
-          <form class="form-page__form order-form" action="https://echo.htmlacademy.ru/" method="get">
+          <form class="form-page__form order-form" action="https://echo.htmlacademy.ru/" method="post">
             <fieldset class="oder-form__group">
               <legend class="order-form__title heading">
                 Представьтесь:
               </legend>
               <p class="order-form__field-group field">
-                <label class="field__label" for="user-name">ИМЯ*:</label>
+                <label class="field__label" for="user-name">ИМЯ<sup>*</sup>:</label>
                 <input class="field__input" type="text" id="user-name" name="name" value="Пётр" required>
               </p>
               <p class="order-form__field-group field">
-                <label class="field__label" for="user-surname">ФАМИЛИЯ*:</label>
+                <label class="field__label" for="user-surname">ФАМИЛИЯ<sup>*</sup>:</label>
                 <input class="field__input" type="text" id="user-surname" name="surname" value="Пустота" required>
               </p>
               <p class="order-form__field-group field">
@@ -80,11 +80,11 @@
                 Контактная информация:
               </legend>
               <p class="order-form__field-group field">
-                <label class="field__label" for="user-name">Контактный телефон*:</label>
-                <input class="field__input fiend__input--phone" type="text" id="user-phone" name="phone" placeholder="Введите телефон" required>
+                <label class="field__label" for="user-phone">Контактный телефон<sup>*</sup>:</label>
+                <input class="field__input fiend__input--phone" type="tel" id="user-phone" name="phone" placeholder="Введите телефон" required>
               </p>
               <p class="order-form__field-group field">
-                <label class="field__label fiend__input--mail" for="user-name">Электронная почта*:</label>
+                <label class="field__label fiend__input--mail" for="user-mail">Электронная почта<sup>*</sup>:</label>
                 <input class="field__input" type="text" id="user-mail" name="mail" placeholder="Введите e-mail" required>
               </p>
             </fieldset>
